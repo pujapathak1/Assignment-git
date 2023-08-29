@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "Fighter",
+      "attributes": [
+        "fighter_id",
+        "full_name",
+        "weight_class",
+        "nationality",
+        "height",
+        "win_count",
+        "loss_count",
+        "knockout_count",
+        "submission_count"
+      ]
+    },
+    {
+      "name": "Event",
+      "attributes": [
+        "event_id",
+        "event_name",
+        "event_date",
+        "location"
+      ]
+    },
+    {
+      "name": "Fight",
+      "attributes": [
+        "fight_id",
+        "event_id",
+        "fighter1_id",
+        "fighter2_id",
+        "winner_id"
+      ]
+    },
+    {
+      "name": "Ranking",
+      "attributes": [
+        "ranking_id",
+        "weight_class",
+        "fighter_id",
+        "ranking_position"
+      ]
+    }
+  ]
+}
